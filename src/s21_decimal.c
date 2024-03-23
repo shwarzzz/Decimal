@@ -1,11 +1,5 @@
 #include "s21_decimal.h"
 
-// int main() {
-//   float a = 15;
-//   s21_decimal res = {{0}};
-//   s21_from_float_to_decimal(a, &res);
-// }
-
 int s21_get_bit(unsigned int x, unsigned int index) {
   int res = 0;
   if (index > 31) {

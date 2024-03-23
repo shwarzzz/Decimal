@@ -178,7 +178,7 @@ START_TEST(s21_is_greater_test_7) {
 }
 END_TEST
 
-// is greaterr or equal tests
+// is greater or equal tests
 START_TEST(s21_is_greater_or_equal_test_1) {
   s21_decimal val1 = {{0}};
   s21_decimal val2 = {{0}};
